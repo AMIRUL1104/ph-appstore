@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
       <head>
         <FontAwesomeConfig />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col max-w-400 px-20 mx-auto">
+        {children}
+      </body>
     </html>
   );
 }
