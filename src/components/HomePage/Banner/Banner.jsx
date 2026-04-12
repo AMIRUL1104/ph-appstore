@@ -5,7 +5,7 @@ import bannerImg from "@/assets/img/hero.png";
 import Image from "next/image";
 function Banner() {
   return (
-    <section className=" mx-auto mt-10 space-y-7 text-[#001931] flex flex-col items-center justify-center ">
+    <section className=" mx-auto mt-10 space-y-7 mb-0 text-[#001931] flex flex-col items-center justify-center ">
       {/* top part */}
       <div>
         <div>
