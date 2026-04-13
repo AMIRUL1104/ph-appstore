@@ -1,5 +1,11 @@
+import TrendingApps from "@/components/shared/TrendingApps";
+
 function AppsPage() {
-  return <div>AppsPage</div>;
+  return (
+    <div>
+      <TrendingApps from={"appsPage"} />
+    </div>
+  );
 }
 
 export default AppsPage;
